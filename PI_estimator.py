@@ -4,7 +4,7 @@ Created on Tue Apr 12 15:32:50 2022
 
 @author: Li Zhaoxin
 Estimator of phytoplankton photosynthetic parameters
----- Enhanced Random Forest Regressor ----
+---- Enhanced Random Forest Regression ----
 Multivariate linear regression + Random forest regression
 """
 
