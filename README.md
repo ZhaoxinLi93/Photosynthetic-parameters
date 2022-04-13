@@ -2,13 +2,13 @@
 ## Description
 The pre-trained PI-estimator can be used to estimate photosynthetic (photosynthesis-irradiance) parameters of phytoplankton in clear to turbid waters.
 #### Input
-* Water temperature (T)
-* Chlorophyll-_a_ concentration (Chl-_a_)
-* Depth-averaged diffuse attenuation coefficient of PAR (KdPAR) 
-* Light transmittance of downwelling PAR (rPAR)
+* Water temperature (T, °C)
+* Chlorophyll-_a_ concentration (Chl-_a_, mg/m3)
+* Depth-averaged diffuse attenuation coefficient of PAR (KdPAR, 1/m) 
+* Light transmittance of downwelling PAR (rPAR, unitless)
 #### Output
-* Assimilation number (PBmax)
-* Light saturation parameter (Ek)
+* Assimilation number (PBmax, mg C/mg Chl/h)
+* Light saturation parameter (Ek, μmol photons/m2/s)
 
 ## Reference
 ["Remote estimation of phytoplankton primary production in clear to turbid waters by integrating a semi-analytical model with a machine learning algorithm"](https://www.sciencedirect.com/science/article/pii/S0034425722001419). Zhaoxin Li, et al. (2022). Remote Sensing of Environment. 113027. 10.1016/j.rse.2022.113027.
