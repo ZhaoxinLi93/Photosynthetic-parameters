@@ -16,7 +16,7 @@ The pre-trained PI-estimator can be used to estimate photosynthetic (photosynthe
 ## Usage
 ```
 from PI_estimator import PI_Estimator
-Model = PI_Estimator(do_restore = True, restore_path = './Model', model_name = '...')
+Model = PI_Estimator(do_restore = True, restore_path = './Model', model_name = 'PI_Estimator_PBmax_Ek_20220412_v1.0.joblib')
 Y = Model.predict(X)
 PBmax = Y[:, 0]
 Ek = Y[:, 1]
