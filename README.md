@@ -42,4 +42,4 @@ If you would like to train the PI-estimator using your own data, you can do it b
 Model = PI_Estimator(do_save = True, save_path = '<your path>', model_name = '<your model name>')
 Model.fit(X_train, Y_train)
 ```
-For details, you can see [PI_estimator.py](docs/PI_estimator.py).
+For details, you can see [PI_estimator.py](Photosynthetic-parameters/PI_estimator.py).
