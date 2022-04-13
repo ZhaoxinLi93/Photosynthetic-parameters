@@ -21,8 +21,8 @@ Y = Model.predict(X)
 PBmax = Y[:, 0]
 Ek = Y[:, 1]
 ```
-The user can set "n_jobs" to enable parallel computation.
-(see [sklearn.ensemble.RandomForestRegressor](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestRegressor.html))
+The user can set "n_jobs" to enable parallel computation:
 ```
 Model.reg_2[-1].n_jobs = -1
 ```
+(see [sklearn.ensemble.RandomForestRegressor](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestRegressor.html))
